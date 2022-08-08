@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link href="../css/common.css" rel="stylesheet" type="text/css" />
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
     <title></title>
 </head>
 <body>
@@ -43,8 +43,8 @@
             <tr>
             <th class="hissu"><span class="asterisk">*</span><span class="hissu-letter" >必須項目</span></th>
         </tr>
-            <input class="submit" type="submit" value="登録">
             </table>
+            <input class="submit" type="submit" value="登録">
         </form>
     </div>
 

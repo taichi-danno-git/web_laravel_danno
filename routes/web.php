@@ -1,9 +1,9 @@
 <?php
 
 
-use App\Http\Controllers\MenuController;
-use App\Http\Controllers\RegistController;
-use App\Http\Controllers\ListController; 
+use App\Http\Controllers\MenuEmployeeController;
+use App\Http\Controllers\RegistEmployeeController;
+use App\Http\Controllers\ListEmployeeController; 
 use Illuminate\Support\Facades\Route;
 /*
 |--------------------------------------------------------------------------
@@ -20,9 +20,11 @@ Route::get('/', function () {
     return view('menu');
 });
 
-Route::get('/menu',[MenuController::class, 'index'])/* ->name('menu') */;
 
-Route::get('/employee-regist',[RegistController::class, 'index'])/* ->name('employee-regist') */;
 
-Route::get('/employee-list',[ListController::class, 'index'])/* ->name('employee-list') */;
+Route::get('/menu',[MenuEmployeeController::class, 'index'])->name('menu');
+
+Route::get('/employee-regist',[RegistEmployeeController::class, 'index'])->name('employee-regist');
+
+Route::get('/employee-list',[ListEmployeeController::class, 'index'])->name('employee-list');
 
