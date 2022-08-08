@@ -1,0 +1,63 @@
+
+.contents{
+margin: 3em;
+}
+
+
+/* menu.html */
+.title {
+    margin:2em 0;
+}
+
+/* .action-menu{
+    list-style-position:    inside;
+    padding-left:0em;
+} */
+
+ul{
+    list-style-position:inside;
+    padding-left:0;
+    
+} 
+
+
+/* employee-list.html */
+.transform {
+    margin:2em 0;
+}
+
+
+/* employee-regist */
+.asterisk{
+    color:red;
+}
+
+th{
+    text-align: left;
+}
+
+form table{
+    border-spacing: 0;
+}
+
+form td{
+    padding: 0 0 0 5em;
+    width:10em;
+}
+select{
+    width:12.5em;
+}
+
+.family_name{
+    width:5.5em;
+}
+.first_name{
+    width:5.5em;
+}
+
+.hissu{
+    text-align: center;
+}
+.hissu-letter{
+    font-size:0.8em;
+}
